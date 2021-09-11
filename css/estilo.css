@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Geral*/
+body {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 15px;
+}
+
+hr {
+    border-top: 1px solid #5E17EB;
+}
+
+
+/*Cabeçalho*/
+#area-cabeçario {
+    background: #5E17EB;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Logo*/
+#area-menu {
+    padding: 1%;
+}
+#area-logo {
+    padding: 10px;
+    text-align: center;
+}
+
+/*Meu*/
+a:link, a:visited {
+    color: #5E17EB;
+}
+
+a {
+    color: #5E17EB;
+    text-decoration: none;
+}
+
+#area-cabeçario a:link, #area-cabeçario a:visited {
+    color: #ffffff;
+    padding: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#area-menu a:hover {
+    color: #5E17EB;
+    background-color: #ffffff;
+}
+
+/*Corpo*/
+#area-principal {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 10px;
+}
+
+#area-principal img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.coteudo-ordenado {
+    font-size: 15px;
+    padding-left: 5%;
+    padding-top: 15px;
+}
+
+.bnt:link, .bnt:visited {
+    color: #ffffff;
+    background-color: #5E17EB;
+    padding: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
